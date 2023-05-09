@@ -1,0 +1,47 @@
+{
+  "development": {
+    "username": "retailhub",
+    "password": "kDyh9ndfvYdS3M7DRUcSxExfx5X",
+    "database": "retailhub",
+    "host": "34.105.225.133",
+    "dialect": "postgres",
+    "operatorAliases": false,
+    "logging": false,
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "localhost": {
+    "username": "postgres",
+    "password": "Kamal@123#",
+    "database": "retailhub",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorAliases": false,
+    "logging": false,
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "production": {
+    "username": "retailhub",
+    "password": "kDyh9nWpdS3M7DRUcSxExfx5X",
+    "database": "retailhub",
+    "host": "35.246.127.78",
+    "dialect": "postgres",
+    "operatorAliases": false,
+    "logging": false,
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  }
+}
